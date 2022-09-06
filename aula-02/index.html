@@ -9,13 +9,15 @@
                 Conversor de moedas
             </h1>
             <p class="page-subtitle">
-                Descubra os valores de dolar U$ em real U$
+                Descubra os valores de real R$ em dólar U$ e euro €
             </p>
             <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
             <label for="moeda">Insira o valor</label><br>
             <input type="number" id="valor" size="2" /><br>
-            <button type="submit" onclick="Converter()">Converter</button>
+            <button type="submit" onclick="ConverterDolarEuro('dolar')">Converter para Dólar</button>
+            <button type="submit" onclick="ConverterDolarEuro('euros')">Converter para Euro</button>
             <h2 id="valorConvertido"></h2>
+            <h2 id="valorBitcoin"></h2>
       </div>
       <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
